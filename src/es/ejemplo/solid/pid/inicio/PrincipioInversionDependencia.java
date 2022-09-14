@@ -9,7 +9,7 @@ public class PrincipioInversionDependencia {
         Notificacion notificacion = new Notificacion( new CorreoServicio());
         notificacion.notificarPorCorreo();
 
-        notificacion = new Notificacion( new SmsServicio());
+        //notificacion = new Notificacion( new SmsServicio());
         notificacion.notificarPorSms();
 
     }

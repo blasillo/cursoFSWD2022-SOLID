@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f0c850-cabd-448e-8537-ee665374119b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrincipiosSolid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pid/inicio/PrincipioInversionDependencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pru/inicio/PrincipioResponsabilidadUnica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pid/fin/PrincipioInversionDependencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/ejemplo/solid/pid/inicio/PrincipioInversionDependencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pid/inicio/PrincipioInversionDependencia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +36,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrincipioInversionDependencia">
+  <component name="RunManager" selected="Application.es.ejemplo.solid.pid.fin.PrincipioInversionDependencia">
     <configuration name="PrincipioInversionDependencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.pid.inicio.PrincipioInversionDependencia" />
       <module name="PrincipiosSolid" />
@@ -71,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="es.ejemplo.solid.pid.fin.PrincipioInversionDependencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.pid.fin.PrincipioInversionDependencia" />
+      <module name="PrincipiosSolid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.ejemplo.solid.pid.fin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.es.ejemplo.solid.pid.fin.PrincipioInversionDependencia" />
         <item itemvalue="Application.PrincipioInversionDependencia" />
         <item itemvalue="Application.PrincipioResponsabilidadUnica" />
       </list>
@@ -86,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663177876389</updated>
-      <workItem from="1663177879263" duration="1075000" />
+      <workItem from="1663177879263" duration="2989000" />
     </task>
     <servers />
   </component>
