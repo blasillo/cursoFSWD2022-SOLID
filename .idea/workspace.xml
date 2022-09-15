@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f0c850-cabd-448e-8537-ee665374119b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pac/fin/PrincipioAbiertoCerrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pac/inicio/PrincipioAbiertoCerrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/psl/fin/PrincipioSustiticionLiskov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/psl/inicio/PrincipioSustiticionLiskov.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es/ejemplo/solid/pru/fin/PrincipioResponsabilidadUnica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/ejemplo/solid/pru/fin/PrincipioResponsabilidadUnica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrincipioAbiertoCerrado (1)">
+  <component name="RunManager" selected="Application.PrincipioSustiticionLiskov (1)">
     <configuration name="PrincipioAbiertoCerrado (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.pac.fin.PrincipioAbiertoCerrado" />
       <module name="PrincipiosSolid" />
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrincipioResponsabilidadUnica (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.pru.inicio.PrincipioResponsabilidadUnica" />
+    <configuration name="PrincipioSustiticionLiskov (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.psl.fin.PrincipioSustiticionLiskov" />
       <module name="PrincipiosSolid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="es.ejemplo.solid.pru.inicio.*" />
+          <option name="PATTERN" value="es.ejemplo.solid.psl.fin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="es.ejemplo.solid.pid.fin.PrincipioInversionDependencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.pid.fin.PrincipioInversionDependencia" />
+    <configuration name="PrincipioSustiticionLiskov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.psl.fin.PrincipioSustiticionLiskov" />
       <module name="PrincipiosSolid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="es.ejemplo.solid.pid.fin.*" />
+          <option name="PATTERN" value="es.ejemplo.solid.psl.fin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="es.ejemplo.solid.pru.fin.PrincipioResponsabilidadUnica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.pru.fin.PrincipioResponsabilidadUnica" />
+    <configuration name="es.ejemplo.solid.psl.inicio.PrincipioSustiticionLiskov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.ejemplo.solid.psl.inicio.PrincipioSustiticionLiskov" />
       <module name="PrincipiosSolid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="es.ejemplo.solid.pru.fin.*" />
+          <option name="PATTERN" value="es.ejemplo.solid.psl.inicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipioSustiticionLiskov (1)" />
+        <item itemvalue="Application.es.ejemplo.solid.psl.inicio.PrincipioSustiticionLiskov" />
+        <item itemvalue="Application.PrincipioSustiticionLiskov" />
         <item itemvalue="Application.PrincipioAbiertoCerrado (1)" />
         <item itemvalue="Application.PrincipioAbiertoCerrado" />
-        <item itemvalue="Application.es.ejemplo.solid.pru.fin.PrincipioResponsabilidadUnica" />
-        <item itemvalue="Application.PrincipioResponsabilidadUnica (1)" />
-        <item itemvalue="Application.es.ejemplo.solid.pid.fin.PrincipioInversionDependencia" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663177876389</updated>
-      <workItem from="1663177879263" duration="9434000" />
+      <workItem from="1663177879263" duration="11697000" />
     </task>
     <servers />
   </component>
