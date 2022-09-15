@@ -5,17 +5,22 @@ public class PrincipioResponsabilidadUnica {
     public static void main (String [] args ) {
 
         System.out.println( "Ejecutando PrincipioResponsabilidadUnica");
-        IContenidoServicio servicio = new ContenidoServicioImpl();
-        servicio.escribirMensaje("Hola, qué tal!");
+        IContenidoServicio contenidoServicio = new ContenidoServicioImpl();
+        IMensajeServicio mensajeServicio =  new MensajeServicioImpl();
 
-        servicio.reemplazarContenidoMensaje("Hola", "Buenas");
+        contenidoServicio.escribirMensaje("Hola, qué tal!");
+        mensajeServicio.imprimirMensaje(  contenidoServicio.obtenerContenido() );
 
+        contenidoServicio.reemplazarContenidoMensaje("Hola", "Buenas");
+        mensajeServicio.enviarMensaje(  contenidoServicio.obtenerContenido() );
     }
 }
 
 interface IContenidoServicio {
     void escribirMensaje (String mensaje);
     void reemplazarContenidoMensaje (String origen, String destino);
+
+    String obtenerContenido();
 }
 
 interface IMensajeServicio {
@@ -31,14 +36,14 @@ class ContenidoServicioImpl implements IContenidoServicio {
     @Override
     public void escribirMensaje(String mensaje) {
         contenido = mensaje;
-        mensajeServicio.imprimirMensaje(contenido);
     }
 
     @Override
     public void reemplazarContenidoMensaje(String origen, String destino) {
         contenido = contenido.replace(origen,destino);
-        mensajeServicio.enviarMensaje(contenido);
     }
+
+    public String obtenerContenido () { return contenido;}
 }
 
 class MensajeServicioImpl implements IMensajeServicio {
